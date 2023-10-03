@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+.stickypro{
+    position:sticky;
+    top:0;
+    width:100%;
+}
+.container{
+    max-width: 80vw;
+    max-height:100vh;
+    margin: auto;
+    padding:auto;
+    font-family: 'Ubuntu', sans-serif;
+    }
+
+.bg{
+
+height:75px;
+}
+.fontbold{
+    font-weight:bold;
+}
+
+.flex{
+  
+    display:flex;
+    
+  
+}
+.left{
+    width:50%;
+    height:50vh;
+}
+.right{
+    width:50%;
+}
+.justifycontent{
+    justify-content:space-between;
+}
+.justifycenter{
+    justify-content:center;
+}
+.flex-item-center{
+    align-items:center;
+}
+.flex-item-end{
+    justify-content:end;
+}
+.flex-col{
+    flex-direction:column;
+}
+.color{
+    color:brown;
+}
+.font-size{
+    font-size:1.5rem;
+}
+
+.navbar{
+    display:flex;
+    height:75px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.navbar li{
+    list-style:none;
+    margin:0 12px;
+}
+.section1{
+    max-height:100vh;
+}
+.my-1{
+    margin-top:13px;
+    margin-bottom:13px;
+}
+.my-3{
+    margin-top:20px;
+    margin-bottom:26px;
+}
+.my-2{
+    margin-top:26px;
+    margin-bottom:26px;
+}
+.px1{
+    padding-top:13px;
+    padding-bottom:13px;
+}
+.overflow-hidden{
+    overflow:hidden;
+}
+.image {
+    width:750px;
+    height:850px;
+  }
+
+.text-center{
+    text-align:center;
+}
+ .Section2 h1{
+    font-size:2.5rem;
+ }
+ .Section2{
+    padding:80px 80px 80px 80px 80px;
+ }
+ .Section2 p{
+    padding:0 8vw;
+    text-align:center;
+ }
+ .box{
+    padding:8px 0px;
+    margin:12px 22px;
+    min-width:20vw;
+    border:2px solid brown;
+    border-radius: 8px;
+    text-align:center;
+ }
+ .btn{
+    padding:7px 12px;
+    border:2px solid white;
+    border-radius:6px;
+    cursor:pointer;
+    color:white;
+    background-color:brown;
+ }
+ .box ul{
+    list-style-type:none;
+ }
+ .box ul li{
+    margin:12px 2px;
+
+ }
+ .box h2{
+    font-size: 2rem;
+    padding:12px;
+ }
+ .highlight{
+    font-size:1.2rem;
+    font-weight:bolder;
+ }
+ .plantable{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+ }
+ .section3 table{
+    width:100%;
+    margin:40px 0;
+    margin-bottom:100px;
+    margin-top:20px;
+
+ }
+ .section3 table th{
+    padding:15px 0;
+    width:23vw;
+   border-bottom:2px solid black;
+
+ }
+ .section3 table td{
+    border-bottom:2px solid black;
+
+ }
+ .section3 table tr{
+    border-bottom:2px solid black;
+ }
+ .section3 h1{
+    font-size:2.3rem;
+ }
+ footer{
+    padding:23px;
+    text-align:center;
+ }
+ .faq{
+    text-align:center;
+    padding:20px;
+ }
+ 
+ @media (max-width: 915px) {
+    .boxex{
+        display: flex;
+        flex-direction: column;
+    }
+    .responsive{
+        display:flex;
+        flex-direction:column;
+        align-items: center;
+        justify-content:center;
+    }
+    .image {
+        width:650px;
+        height:450px;
+        text-align:center;
+      }
+    .rsp{
+        padding-right:0px;
+        padding-left:0px;
+    }
+
+
+  }
+  .mr{
+    margin:3px;
+  }
+  .mry{
+    margin-top:6px;
+    margin-bottom:6px;
+  }
+.mry1{
+    margin-top:18px;
+}
+.py{
+    padding:8px;
+}
+.cnt{
+    text-align:center;
+    margin:20px;}
+
+.bc{
+    background-color:beige;
+}
